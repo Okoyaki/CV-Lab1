@@ -21,21 +21,21 @@
 ![alt text](https://github.com/Okoyaki/CV-Lab1/blob/28c592f33cd3a3c7dbe518b3394e65835ee39d69/data/other/opening.png)
 
 ## Описание разработанной системы
-В качестве алгоритмов реализации эрозии была взята функция cv2.erode из библиотеки opencv и отдельно написанная на библиотеке numpy функция. Бинаризация изображений проводилась с использованием метода Оцу, используя библиотеку opencv.
+В качестве алгоритмов реализации эрозии была взята функция ```cv2.erode``` из библиотеки ```opencv``` и отдельно написанная на библиотеке ```numpy``` функция. Бинаризация изображений проводилась с использованием метода Оцу, используя библиотеку ```opencv```.
 
 Всего были обработаны 6 изображений:
 
-1. Обычные цветные изображения 
+1. <b>Обычные цветные изображения</b> 
 
 ![alt text](https://github.com/Okoyaki/CV-Lab1/blob/b6b82539496619334019598e7a073ef3b218bb8f/data/orig/img_rgb1.png)
 ![alt text](https://github.com/Okoyaki/CV-Lab1/blob/b6b82539496619334019598e7a073ef3b218bb8f/data/orig/img_rgb2.png)
 
-2. Чернобелые изображения с шумом
+2. <b>Чернобелые изображения с шумом</b>
 
 ![alt text](https://github.com/Okoyaki/CV-Lab1/blob/b6b82539496619334019598e7a073ef3b218bb8f/data/orig/noisy_img_gs1.png)
 ![alt text](https://github.com/Okoyaki/CV-Lab1/blob/b6b82539496619334019598e7a073ef3b218bb8f/data/orig/noisy_img_gs2.png)
 
-3. Цветные изображения с шумом (noisy_img_rgb1.png, noisy_img_rgb2.png)
+3. <b>Цветные изображения с шумом</b>
 
 ![alt text](https://github.com/Okoyaki/CV-Lab1/blob/b6b82539496619334019598e7a073ef3b218bb8f/data/orig/noisy_img_rgb1.png)
 ![alt text](https://github.com/Okoyaki/CV-Lab1/blob/b6b82539496619334019598e7a073ef3b218bb8f/data/orig/noisy_img_rgb2.png)
